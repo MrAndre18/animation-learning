@@ -24,7 +24,7 @@ body {
 }
 
 .icon .hand {
-  animation: move-hand 1.2s infinite alternate-reverse linear;
+  animation: move-hand 1.2s infinite alternate linear;
 }
 
 @keyframes move-hand {
