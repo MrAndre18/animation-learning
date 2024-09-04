@@ -12,17 +12,26 @@ img {
 
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #f7f7f7;
+  padding: 100px 0;
+  background-color: #383838;
+  color: #ffffff;
 }
 
 .test-field {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 600px;
-  height: 600px;
-  border: 1px solid #707070;
+  width: 80vw;
+}
+
+.icon .hand {
+  animation: move-hand 1.2s infinite alternate-reverse linear;
+}
+
+@keyframes move-hand {
+  from {
+    translate: -10px;
+  }
+  to {
+    translate: 10px;
+  }
 }
