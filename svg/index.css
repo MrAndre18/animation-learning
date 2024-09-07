@@ -29,9 +29,9 @@ body {
 
 @keyframes move-hand {
   from {
-    translate: -10px;
+    translate: -5px;
   }
   to {
-    translate: 10px;
+    translate: 5px;
   }
 }
